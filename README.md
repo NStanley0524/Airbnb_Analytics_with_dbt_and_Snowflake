@@ -2,7 +2,7 @@
 
 
 
-## 🔍 Project Overview
+## Project Overview
 
 This project showcases how I use **dbt and Snowflake** to transform raw Airbnb data into **trusted, analytics-ready datasets** that support reporting, exploratory analysis, and decision-making.
 
