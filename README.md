@@ -6,7 +6,7 @@
 
 This project showcases how I use **dbt and Snowflake** to transform raw Airbnb data into **trusted, analytics-ready datasets** that support reporting, exploratory analysis, and decision-making.
 
-While my core role is that of a **Senior Data Analyst**, this project demonstrates my ability to work confidently with **large-scale data**, apply structured data modeling, enforce data quality, and clearly document business logic using modern data tooling.
+It also demonstrates ability to work confidently with **large-scale data**, apply structured data modeling, enforce data quality, and clearly document business logic using modern data tooling.
 
 The emphasis of this work is not only on transformation, but on **making data accurate, explainable, and usable for analysis**.
 
@@ -30,11 +30,8 @@ As a Senior Data Analyst, I focus on more than querying data — I focus on data
 This project demonstrates my ability to:
 
 - Work directly with Snowflake and large datasets
-
 - Design and maintain analytics-ready data models
-
 - Apply business rules within transformations
-
 - Use modern tools like dbt to improve reliability and documentation
 
 - Bridge the gap between raw data and meaningful insights
@@ -45,11 +42,8 @@ This project demonstrates my ability to:
 ## Tech Stack
 
 - dbt Core – data transformation and modeling
-
 - Snowflake – cloud data warehouse
-
 - SQL – transformation logic
-
 - GitHub – version control & collaboration
 
 
@@ -59,11 +53,8 @@ This project demonstrates my ability to:
 The project uses Airbnb datasets containing information about:
 
 - Listings
-
 - Hosts
-
 - Reviews
-
 - Locations and pricing
 
 Raw data is assumed to already exist in Snowflake and is treated as the source layer, with dbt handling all downstream transformations.
@@ -159,7 +150,7 @@ These questions guided the structure of the models and the business logic applie
 
 To ensure analytical reliability, the project includes multiple layers of data validation:
 
-- not-nulls, unique, relationhsips
+- Not-nulls, unique, relationhsips
 - Custom SQL tests enforcing business rules (e.g. minimum nights ≥ 1)
 - Reusable generic tests (row count thresholds, positive value checks)
 - Source freshness checks
