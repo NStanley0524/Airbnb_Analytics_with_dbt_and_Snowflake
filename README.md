@@ -123,7 +123,7 @@ These models:
 This mart combines review data with a seeded calendar of full moon dates to support exploratory analysis around temporal patterns in customer behavior.
 
 
-![dbt Lineage Grapgh](images/lineage_graph.png)
+![dbt Lineage Graph](images/lineage_graph.png)
 
 
 
