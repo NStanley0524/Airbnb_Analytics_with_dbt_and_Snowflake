@@ -74,6 +74,15 @@ Raw data is assumed to already exist in Snowflake and is treated as the source l
 
 This project follows a layered modeling approach commonly used in modern analytics workflows.
 
+
+
+![Data Model Overview](images/data_model.png)
+
+This project follows a layered modeling approach commonly used in modern analytics workflows.
+
+
+
+
 ### Staging Models
 **Purpose:** Light transformations and standardization of raw source data.
 
@@ -112,6 +121,10 @@ These models:
 - **`mart_fullmoon_reviews.sql`**
 
 This mart combines review data with a seeded calendar of full moon dates to support exploratory analysis around temporal patterns in customer behavior.
+
+
+![dbt Lineage Grapgh](images/lineage_graph.png)
+
 
 
 
